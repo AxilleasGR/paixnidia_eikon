@@ -58,11 +58,11 @@
      <Compile Include="Assets\SampleScenes\Scripts\LevelReset.cs" />
      <Compile Include="Assets\Scripts\DoorOpenClose.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
+     <Compile Include="Assets\Scripts\healthBar.cs" />
      <Compile Include="Assets\SampleScenes\Scripts\CameraSwitch.cs" />
+     <Compile Include="Assets\Scripts\PlayerHealth.cs" />
      <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
-     <Compile Include="Assets\Scripts\healthBar.cs" />
-     <Compile Include="Assets\Scripts\PlayerHealth.cs" />
      <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
      <None Include="Assets\BlackantMasterStudio\The Shed\Shed_Anims.txt" />
  <Reference Include="UnityEngine">
