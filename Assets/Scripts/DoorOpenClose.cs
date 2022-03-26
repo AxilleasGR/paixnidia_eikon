@@ -7,7 +7,6 @@ using  UnityEngine.UI;
 public class DoorOpenClose : MonoBehaviour
 {
     public Animator animator;
-    public bool temp = false;
     private bool inTrigger=false;
     public Text textElement;
     private void OnTriggerEnter(Collider other)

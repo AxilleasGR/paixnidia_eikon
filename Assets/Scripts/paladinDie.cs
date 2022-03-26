@@ -23,7 +23,7 @@ public class paladinDie : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0)&& inTrigger)
+        if (Input.GetMouseButtonDown(0)&& inTrigger)  //Left click and in trigger
         {
             i++;
             if (i == 3)

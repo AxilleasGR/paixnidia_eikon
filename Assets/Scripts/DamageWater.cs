@@ -10,9 +10,7 @@ public class DamageWater : MonoBehaviour
 
     public int currentHealth;
     public healthBar healthBar;
-
-    public Transform teleportTarget;
-    public GameObject player;
+    
     public GameObject canvas;
     // Start is called before the first frame update
     void Start()
@@ -56,9 +54,6 @@ public class DamageWater : MonoBehaviour
             Cursor.visible = true;
             canvas.gameObject.SetActive(true);
             Time.timeScale = 0f;
-            // currentHealth = maxHealth;
-            // healthBar.SetHealth(maxHealth);
-            // player.transform.position = teleportTarget.transform.position;
         }
         healthBar.SetHealth(currentHealth);
     }

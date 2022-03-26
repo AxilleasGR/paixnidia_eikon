@@ -11,11 +11,9 @@ public class Dead : MonoBehaviour
     public Transform teleportTarget;
     public GameObject player;
     public GameObject canvas;
-    public DamageWater dmgWater;
 
     public void Restarter()
     {
-        canvas.gameObject.SetActive(false);
         canvas.gameObject.SetActive(false);
         Time.timeScale = 1f;
         Cursor.visible = false;

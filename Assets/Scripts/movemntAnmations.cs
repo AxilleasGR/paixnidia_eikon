@@ -43,7 +43,7 @@ public class movemntAnmations : MonoBehaviour
             myanim.SetBool("jump", false);
         }
 
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0)) //Left  click
         {
             
             myanim.SetBool("attack", true);
